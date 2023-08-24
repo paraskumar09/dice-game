@@ -15,14 +15,14 @@ document.querySelector(".img2 ").setAttribute("src",num2ImgSrc);
 
 if(num>num2)
 {
-    document.querySelector(".heading").innerHTML=name1+" is chutia";
+    document.querySelector(".heading").innerHTML=name1+" WINS";
 
 }
 else if(num2>num)
 {
-    document.querySelector(".heading").innerHTML=name2+" is chutia";
+    document.querySelector(".heading").innerHTML=name2+" WINS";
 }
 else
 {
-    document.querySelector(".heading").innerHTML="both "+name1+" and "+name2+ "are chutia";
+    document.querySelector(".heading").innerHTML="both "+name1+" and "+name2+ "wins";
 }
